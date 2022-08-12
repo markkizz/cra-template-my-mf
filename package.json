@@ -1,0 +1,24 @@
+{
+  "name": "cra-template-my-mf",
+  "version": "1.0.0",
+  "author": "markkizz <mark.pattanapara@gmail.com>",
+  "description": "My cra template for module federation",
+  "repository": {
+    "type": "git",
+    "repository": "https://github.com/markkizz/cra-template-my-mf.git",
+    "url": "https://github.com/facebook/create-react-app.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
