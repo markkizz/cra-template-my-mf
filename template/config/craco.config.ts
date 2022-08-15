@@ -1,7 +1,7 @@
-import { CracoConfig, getPlugin, pluginByName, throwUnexpectedConfigError, removePlugins, addPlugins } from "@craco/craco";
+import { CracoConfig, getPlugin, pluginByName, throwUnexpectedConfigError } from "@craco/craco";
 import webpack from "webpack"
 import HtmlWebpackPlugin from "html-webpack-plugin"
-import { dependencies } from './package.json'
+import { dependencies } from '../package.json'
 import { resolve } from 'path';
 
 const config: CracoConfig = {
